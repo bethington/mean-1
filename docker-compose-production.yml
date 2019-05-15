@@ -5,6 +5,7 @@ services:
     build:
      context: .
      dockerfile: Dockerfile-production
+    image: bethington/meanjs:v1
     container_name: meanjs
     ports:
      - "8443:8443"

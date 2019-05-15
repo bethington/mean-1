@@ -3,6 +3,7 @@ services:
   web:
     restart: always
     build: .
+    image: bethington/meanjs:v1
     container_name: meanjs
     ports:
      - "3000:3000"
